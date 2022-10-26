@@ -1,5 +1,5 @@
-function [S]=sobi(X,n,p)
-% function [H,S,D]=sobi(X,n,p)
+function [S]=mi_gau(X,n,p)
+% function [H,S,D]=mi_gau(X,n,p)
  u=X;
  [canais,N]=size(u);
 
